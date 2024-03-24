@@ -31,6 +31,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## How to set up
 
+### Jest Setup
+
 - Go to next js website and follow the instructions
 
 - Add "test:watch": "jest --watch" to your scripts in package.json
@@ -43,6 +45,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 -Add this to your tsconfig.json for remove type errors "types": ["@testing-library/jest-dom"],Then npm install dev dependency @types-jest
 
 - Create a test folder **test** write your tests with **.test.tsx**
+
+### CI/CD Pipeline setup
+
+- Setup your github folder and workflow file
+- Create a yml file for the work flow
+- Install vercel cli
+- Create a token in vercel to handle deployments
+-
 
 ## Deploy on Vercel
 
