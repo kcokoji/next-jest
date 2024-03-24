@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) and jest project bootstrapped with[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and ci/cd pipeline integration.
 
 ## Getting Started
 
@@ -28,6 +28,21 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## How to set up
+
+- Go to next js website and follow the instructions
+
+- Add "test:watch": "jest --watch" to your scripts in package.json
+
+- Install this dev dependencies for linting
+  eslint-plugin-jest-dom,eslint-plugin-testing-library,jest-canvas-mock,jest-fail-on-console,resize-observer-polyfill,ts-node,ts-jest
+
+- Create a jest set up file to extend jest with custom matchers
+
+-Add this to your tsconfig.json for remove type errors "types": ["@testing-library/jest-dom"],Then npm install dev dependency @types-jest
+
+- Create a test folder **test** write your tests with **.test.tsx**
 
 ## Deploy on Vercel
 
