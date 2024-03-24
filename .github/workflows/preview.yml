@@ -3,7 +3,7 @@ name: Preview CI/CD pipeline
 on:
   push:
     branches-ignore:
-      - "*"
+      - main
 
 jobs:
   build-and-test:
