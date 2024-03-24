@@ -52,7 +52,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 - Create a yml file for the work flow
 - Install vercel cli
 - Create a token in vercel to handle deployments
--
+- Set the token in the secrets of the github repo
+- link your vercel project and deploy
 
 ## Deploy on Vercel
 
