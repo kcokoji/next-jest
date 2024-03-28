@@ -1,5 +1,5 @@
 {
-  "types": ["@testing-library/jest-dom"],
+  "types": ["@testing-library/jest-dom", "node", "jest"],
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
