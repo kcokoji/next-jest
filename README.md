@@ -46,6 +46,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 - Create a test folder **test** write your tests with **.test.tsx**
 
+- Install msw for testing apis, install husky for pre commits with the command npx husky init && npm install
+
 ### CI/CD Pipeline setup
 
 - Setup your github folder and workflow file
