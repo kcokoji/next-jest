@@ -39,7 +39,7 @@ describe("Application", () => {
     expect(checkBoxElement2).toBeInTheDocument();
 
     const submitButton = screen.getByRole("button");
-    expect(submitButton).not.toBeChecked();
+    expect(submitButton).toBeInTheDocument();
     const headingTitle = screen.getByRole("heading", {
       level: 1,
     });

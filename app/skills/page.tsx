@@ -1,6 +1,5 @@
 import React from "react";
 import Skills from "../components/skills";
-import Application from "../components/application";
 import Users from "../components/users";
 
 export default function SkillsPage() {
