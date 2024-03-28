@@ -5,8 +5,14 @@ import "jest-canvas-mock";
 import "@testing-library/jest-dom";
 
 import failOnConsole from "jest-fail-on-console";
-
+import "whatwg-fetch";
 import ResizeObserver from "resize-observer-polyfill";
 global.ResizeObserver = ResizeObserver;
 
 failOnConsole();
+
+import { server } from "./mocks/server";
+
+beforeAll(() => server.listen());
+afterEach(() => server.resetHandlers());
+afterAll(() => server.close());

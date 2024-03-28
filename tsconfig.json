@@ -1,5 +1,5 @@
 {
-  "types": ["@testing-library/jest-dom"],
+  "types": ["@testing-library/jest-dom", "node", "jest"],
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lint-staged.config.js"],
   "exclude": ["node_modules"]
 }
