@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Application() {
@@ -16,7 +17,12 @@ export default function Application() {
           value="Vishwas"
           readOnly
         />
-        <img src="https://balls.com" alt="This is a goat" />
+        <Image
+          src="https://balls.com"
+          alt="This is a goat"
+          width={200}
+          height={200}
+        />
         <span title="close">close</span>
         <div>
           <textarea id="bio" aria-label="bio" name="bio" />

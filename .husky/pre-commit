@@ -1,1 +1,1 @@
-npm test && npm lint npm format
+npm test && npm run lint && npm run format
